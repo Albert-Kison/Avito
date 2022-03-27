@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(216, 216, 216);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  padding: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(10, 181, 34, 1) 0%,
+    rgba(0, 106, 17, 1) 100%
+  );
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+nav ul li {
+  color: white;
+}
+
+nav input[type="text"] {
+  width: 70%;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 25px;
+  border: none;
+  position: relative;
+  top: 2rem;
+  box-shadow: 0px 5px 5px grey;
+}
